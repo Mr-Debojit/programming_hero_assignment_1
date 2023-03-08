@@ -1,0 +1,160 @@
+/* body */
+body{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;padding: 0;
+}
+
+/* header part of the website */
+.container{
+    background-image: url(../img/banner1.png);
+    width: 100vw;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.writteng_content{
+    padding: 15rem 2rem 1rem 34rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    white-space:pre-line;
+    justify-items: center;
+    align-items: center;
+    border: 1rem;
+}
+.contact{
+    margin-top: 3rem;
+    color: #FFFFFF;
+    padding: 0.8rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    background-color: #F15B22;
+    border-style: none;
+}
+
+/* assignment section */
+.body_container{
+    display: flex;
+    justify-content: center;
+    margin: 5rem 5rem 5rem 15rem;
+    background-image: url(../img/person.png);
+    background-size: 20rem;
+    height: 80vh;
+    background-repeat: no-repeat;
+    
+}
+.content{
+    display: inline-block;
+    padding: 7rem 2rem 1rem 10rem;
+}
+.h2_tag{
+    padding-left: 2.5rem;
+}
+.p_tag{
+    white-space: pre-wrap;
+}
+.list_tag{
+    list-style-type: none;
+}
+.list_item{
+    margin: 0.8rem;
+}
+.list_tick_mark{
+    list-style-image: url(../icon/tick.svg);
+}
+/* my section */
+.my_section_div{
+    display: flex;
+    justify-content: center;
+
+}
+.my_picture{
+    display: inline-block;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 30rem;
+}
+.my_info{
+    white-space: pre-line;
+    margin: 3rem 5rem 5rem 5rem ;
+}
+/* icon section of the website */
+.icon_container{
+    margin-top: 15rem;
+    align-items: center;
+    height: 70vh;
+    width: 100vw;
+}
+.plans{
+    display:flex;
+    justify-content: center;
+}
+.icon_box{
+    margin: 1.5rem;
+    padding: 1rem;
+}
+.icon_main_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.small_headings{
+    padding: 1rem;
+}.images_class{
+    padding: 2rem;
+}
+/* grid section */
+.gradient{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content:center;
+}
+.grid_box{
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( to left ,rgba(241,141,34,0),rgba(241,141,34,1)),url(../img/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    width: 80vw;
+}
+.call{
+    background-color: lightsteelblue ;
+    color: #FFFFFF;
+    margin: 3rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    border-style: none;
+}
+.footer{
+    white-space: pre-line;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 100vw;
+    background-color: black;
+}
+.footer_2{
+    margin: 3rem;
+    padding-bottom:9rem;
+}
+.footer_1{
+    margin: 3rem;
+}
+.footer_btn{
+    margin-top:3rem ;
+    color:white;
+    background-color: rgb(13, 184, 184);
+    border-style: none;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+}
